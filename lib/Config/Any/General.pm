@@ -1,11 +1,11 @@
-package Catalyst::Plugin::ConfigLoader::General;
+package Config::Any::General;
 
 use strict;
 use warnings;
 
 =head1 NAME
 
-Catalyst::Plugin::ConfigLoader::General - Load Config::General files
+Config::Any::General - Load Config::General files
 
 =head1 DESCRIPTION
 
@@ -69,7 +69,7 @@ it under the same terms as Perl itself.
 
 =item * L<Catalyst>
 
-=item * L<Catalyst::Plugin::ConfigLoader>
+=item * L<Config::Any>
 
 =item * L<Config::General>
 

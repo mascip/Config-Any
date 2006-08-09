@@ -1,11 +1,11 @@
-package Catalyst::Plugin::ConfigLoader::INI;
+package Config::Any::INI;
 
 use strict;
 use warnings;
 
 =head1 NAME
 
-Catalyst::Plugin::ConfigLoader::INI - Load INI config files
+Config::Any::INI - Load INI config files
 
 =head1 DESCRIPTION
 
@@ -71,7 +71,7 @@ it under the same terms as Perl itself.
 
 =item * L<Catalyst>
 
-=item * L<Catalyst::Plugin::ConfigLoader>
+=item * L<Config::Any>
 
 =item * L<Config::Tiny>
 

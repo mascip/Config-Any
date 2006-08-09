@@ -1,11 +1,11 @@
-package Catalyst::Plugin::ConfigLoader::JSON;
+package Config::Any::JSON;
 
 use strict;
 use warnings;
 
 =head1 NAME
 
-Catalyst::Plugin::ConfigLoader::JSON - Load JSON config files
+Config::Any::JSON - Load JSON config files
 
 =head1 DESCRIPTION
 
@@ -79,7 +79,7 @@ it under the same terms as Perl itself.
 
 =item * L<Catalyst>
 
-=item * L<Catalyst::Plugin::ConfigLoader>
+=item * L<Config::Any>
 
 =item * L<JSON>
 

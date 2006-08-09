@@ -1,11 +1,11 @@
-package Catalyst::Plugin::ConfigLoader::YAML;
+package Config::Any::YAML;
 
 use strict;
 use warnings;
 
 =head1 NAME
 
-Catalyst::Plugin::ConfigLoader::YAML - Load YAML config files
+Config::Any::YAML - Load YAML config files
 
 =head1 DESCRIPTION
 
@@ -75,7 +75,7 @@ it under the same terms as Perl itself.
 
 =item * L<Catalyst>
 
-=item * L<Catalyst::Plugin::ConfigLoader>
+=item * L<Config::Any>
 
 =item * L<YAML>
 

@@ -1,18 +1,18 @@
 use strict;
-
+use warnings;
 use Module::Build;
 
-my $build = Module::Build->new(
-	module_name        => 'Catalyst::Plugin::ConfigLoader',
-	dist_author        => 'Brian Cassidy <bricas@cpan.org>',
-	license            => 'perl',
-	create_readme      => 1,
-	create_makefile_pl => 'traditional',
-	requires           => {
-		'Catalyst::Runtime' => '0',
-		'Data::Visitor'     => '0.02',
-        'Module::Pluggable' => '3.01'
-	},
+my $builder = Module::Build->new(
+    module_name         => 'Config::Any',
+    license             => 'perl',
+    dist_author         => 'Joel Bernstein <rataxis@cpan.org>',
+    dist_version_from   => 'lib/Config/Any.pm',
+    requires => {
+        'Test::More' => 0,
+        'version'    => 0,
+		'Module::Pluggable' => '3.01'
+    },
+    add_to_cleanup      => [ 'Config-Any-*' ],
 );
 
-$build->create_build_script;
+$builder->create_build_script();
